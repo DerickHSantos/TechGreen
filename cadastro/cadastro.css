@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+body{
+    margin: 0;
+    width: auto;
+
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+    margin: 15px;
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    flex: 10 0 300px;
+    margin: 0px;
+  }
+
+  .left{
+    background-color: #00AA95;
+    height: 100vh;
+  }
+  
+  .left, .right {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .right{
+    height: 100vh;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cadastro-right{
+    background-color: #114741;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    
+  }
+
+  .cadastro-right p{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 35px;
+    color:#fff;    
+  }
+
+
+  .cadastro-right h3{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 15px;
+    color:#fff;    
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]{
+    display: flex;
+  width: 70%;
+  margin-bottom: 25px;
+  padding: 15px;
+  border-style: none;
+  border-radius: 7px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+  .button-enter{
+    background-color: #114741;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border: 6px solid #00CC76;
+    border-radius: 50px;
+    padding:10px 60px;
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  cursor: pointer;
+  }
+
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+  .span a{
+    color:#00CC76;
+    text-decoration: none;
+  }
+  
+  .left img {
+    height: 90vh;
+    width: auto;
+    padding-bottom: 0px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .right {
+      width: 100%;
+    }
+    
+    .cadastro-right{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .left{
+        all:unset;
+    }
+
+    .left img{
+    display: none;
+    }
+  }
+  

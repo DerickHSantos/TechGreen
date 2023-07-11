@@ -1,0 +1,128 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Techgreen</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="/images/favicon_TechGreen.png">
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+  
+     <!-- Header -->
+     <div class="container">
+      <div class="item">
+        <header>
+            <div class="logo">
+              <a href="/index.html"><img src="/images/logo.png" alt="Logo da TechGreen"></a>
+            </div>
+            <img src="/images/menuTechGreen.png" alt="Menu" class="menu-button">
+          </div>
+        </header>
+      </div>
+    </div>
+  
+      <div class="menu-list">
+        <div class="button2">
+          <a href="cadastro/cadastro.html" class="btnCadastre2">Cadastre-se</a>
+          <a href="login/login.html" class="btnLogin2">Entrar</a>
+        </div>
+        
+        <div class="links2">
+          <p>Se informe</p>
+        <ul id="links2">
+          <li><a href="topicos/topicos.html">Confira alguns tópicos sobre assuntos a respeito do descarte eletrônico</a></li>
+        </ul>
+      </div>
+        <div class="contact2">
+          <p>Em busca</p>
+          <p>de um mundo</p>
+          <p>mais gr<span class="contactVerde1">e</span><span class="contactVerde2">e</span>n.</p>
+        </div>
+        <div class="links2">
+          <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="sobre/sobre.html">Sobre Nós</a></li>
+            <li><a href="topicos/topicos.html">Tópicos</a></li>
+            <li><a href="/admin/admin.html">Admin</a></li>
+          </ul>
+        </div>
+        <div class="social-media2">
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"><img src="/images/facebook.png"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"><img src="/images/twitter.png"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"><img src="/images/instagram.png"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"><img src="/images/gmail.png"></i></a></li>
+          </ul>
+        </div>
+        <div class="legal2">
+          <p>&copy; 2023 TechGreen. Todos os direitos reservados.</p>
+          <p><a href="politicatermo/politicatermo.html">Política de Privacidade</a> | <a href="politicatermo/politicatermo.html">Termos e Condições</a></p>
+        </div>
+      </div>
+  
+    <!--Entrada de dados-->
+    <form id="cepForm">
+        <div class="informarCep">
+          <img class="mapao" src="mapao.png">
+          <p>Informe seu CEP e veja os pontos de coleta mais próximos de você !</p>
+          <hr>
+          <input type="text" id="cepInput" placeholder="00000-000" class="ui medium big input">
+          <button type="submit" class="ui-mini-green-button">Calcular distância</button>
+        </div>
+      </form>
+  
+    <!--Div do mapa-->
+    <div id="map">Para visualizar o mapa, é necessário<a href="login/login.html">&nbsp;fazer login</a>.</div>
+    <div id="distanceResult"></div>
+  
+    <!--Pegar a API do Google Maps-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBexpx9CU1P4UFY6PSVWjVDBn15mQ5Kin4&callback=initMap" async defer></script>
+  
+    <footer>
+      <div class="containerFooter">
+        <div class="logoFooter">
+          <img src="/images/logo.png" alt="Logo da sua marca">
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="sobre/sobre.html">Sobre Nós</a></li>
+            <li><a href="topicos/topicos.html">Tópicos</a></li>
+          </ul>
+        </div>
+        <div class="contact">
+          <p>Em busca</p>
+          <p>de um mundo</p>
+          <p>mais gr<span class="contactVerde1">e</span><span class="contactVerde2">e</span>n.</p>
+        </div>
+        <div class="social-media">
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"><img src="/images/facebook.png"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"><img src="/images/twitter.png"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"><img src="/images/instagram.png"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"><img src="/images/gmail.png"></i></a></li>
+          </ul>
+        </div>
+        <div class="button">
+          <a href="cadastro/cadastro.html" class="btnCadastre">Cadastre-se</a>
+          <a href="login/login.html" class="btnLogin">Entrar</a>
+        </div>
+        <div class="legal">
+          <p>&copy; 2023 TechGreen. Todos os direitos reservados.</p>
+          <p><a href="politicatermo/politicatermo.html">Política de Privacidade</a> | <a href="politicatermo/politicatermo.html">Termos e Condições</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js" defer></script>
+  <!--Propriedade de ©TechGrenn, Todos os direitos reservados, 2023-->
+  </html>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <!--Pegar a API do Google Maps-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBexpx9CU1P4UFY6PSVWjVDBn15mQ5Kin4&callback=initMap" async defer></script>
+</body>
+<!--Propriedade de ©TechGrenn, Todos os direitos reservados, 2023-->
+</html>

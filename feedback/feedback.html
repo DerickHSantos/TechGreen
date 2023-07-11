@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechGreen</title>
+  <link rel="icon" href="/images/favicon_TechGreen.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="container">
+    <div class="item">
+      <header>
+          <div class="logo">
+            <a href="/index.html">
+            <img src="logo.png" alt="Logo da TechGree">
+        </a>
+          </div>
+          <img src="menuTechGreen.png" alt="Menu" class="menu-button">
+        </div>
+      </header>
+    </div>
+  </div>
+
+    <div class="menu-list">
+      <div class="button2">
+        <a href="/cadastro/cadastro.html" class="btnCadastre2">Cadastre-se</a>
+          <a href="/login/login.html" class="btnLogin2">Entrar</a>
+      </div>
+      
+      <div class="links2">
+        <p>Se informe</p>
+      <ul id="links2">
+        <li><a href="/topicos/topicos.html">Confira alguns tópicos sobre assuntos a respeito do descarte eletrônico</a></li>
+      </ul>
+    </div>
+      <div class="contact2">
+        <p>Em busca</p>
+        <p>de um mundo</p>
+        <p>mais gr<span class="contactVerde1">e</span><span class="contactVerde2">e</span>n.</p>
+      </div>
+      <div class="links2">
+        <ul>
+          <li><a href="/index.html">Página Inicial</a></li>
+            <li><a href="/sobre/sobre.html">Sobre Nós</a></li>
+            <li><a href="/feedback/feedback.html">Dar Feedback</a></li>
+            <li><a href="/topicos/topicos.html">Tópicos</a></li>
+        </ul>
+      </div>
+      <div class="social-media2">
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"><img src="facebook.png"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"><img src="twitter.png"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"><img src="instagram.png"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"><img src="gmail.png"></i></a></li>
+        </ul>
+      </div>
+      <div class="legal2">
+        <p>&copy; 2023 TechGreen. Todos os direitos reservados.</p>
+        <p><a href="/politicatermo/politicatermo.html">Política de Privacidade</a> | <a href="/politicatermo/politicatermo.html">Termos e Condições</a></p>
+      </div>
+    </div>
+
+
+ 
+    <h1 class="tituloFeedback">E aí, está satisfeito ?</h1>
+    <p class="textoFeedback">Estando tudo certo ou tudo errado, você pode nos enviar um feedback para entendermos o que
+      você achou do site. Contamos com sua ajuda :)</p>
+    <img class="imgFeedback" src="/images/imgFeedback.png">
+    <form id="feedbackForm" action="/enviar-feedback" method="post">
+      <div class="rating-container">
+        <div class="rating">
+          <input type="radio" id="star5" name="rating" value="5">
+          <label for="star5"></label>
+          <input type="radio" id="star4" name="rating" value="4">
+          <label for="star4"></label>
+          <input type="radio" id="star3" name="rating" value="3">
+          <label for="star3"></label>
+          <input type="radio" id="star2" name="rating" value="2">
+          <label for="star2"></label>
+          <input type="radio" id="star1" name="rating" value="1">
+          <label for="star1"></label>
+        </div>
+      </div>
+  
+      <div class="enviarFeedback">
+        <input type="email" id="emailFeedback" name="email" placeholder="Digite seu email aqui" maxlength="255">
+        
+        <input type="text" id="textoFeedback" name="comentario" placeholder="Digite seu feedback aqui" maxlength="255">
+        <button type="submit" class="arrow-button" id="btnFeedback"></button>
+      </div>
+    </form>
+    <hr>
+
+
+  <footer>
+    <div class="containerFooter">
+      <div class="logoFooter">
+        <img src="/images/logo.png" alt="Logo da sua marca">
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="/index.html">Página Inicial</a></li>
+            <li><a href="/sobre/sobre.html">Sobre Nós</a></li>
+            <li><a href="/feedback/feedback.html">Dar Feedback</a></li>
+            <li><a href="/topicos/topicos.html">Tópicos</a></li>
+          </ul>
+        </div>
+        <div class="contact">
+          <p>Em busca</p>
+          <p>de um mundo</p>
+          <p>mais gr<span class="contactVerde1">e</span><span class="contactVerde2">e</span>n.</p>
+        </div>
+        <div class="social-media">
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"><img src="/images/facebook.png"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"><img src="/images/twitter.png"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"><img src="/images/instagram.png"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"><img src="/images/gmail.png"></i></a></li>
+          </ul>
+        </div>
+        <div class="button">
+          <a href="/cadastro/cadastro.html" class="btnCadastre">Cadastre-se</a>
+          <a href="/login/login.html" class="btnLogin">Entrar</a>
+        </div>
+        <div class="legal">
+          <p>&copy; 2023 TechGreen. Todos os direitos reservados.</p>
+          <p><a href="/politicatermo/politicatermo.html">Política de Privacidade</a> | <a href="/politicatermo/politicatermo.html">Termos e Condições</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="script.js" defer></script>
+</html>

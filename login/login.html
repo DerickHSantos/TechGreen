@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login TechGreen</title>
+    <link rel="icon" href="/images/favicon_TechGreen.png">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="/images/menino.png">
+        </div>
+        <div class="right">
+            <form class="cadastro-right" action="/login" id="loginForm" method="post" style="height: 90vh;">
+                <img src="/images/logo.png" class="logo">
+                <p class="custom-underline" style="margin-top: 13%;">Faça login</p>
+          <input type="email" placeholder="E-mail" id="emailLogin" required>
+          <input type="password" placeholder="Senha" id="senhaLogin" required>
+                <h3><span class="span"><a href="/esqueceuSenha/esqueceuSenha.html">Redefinir senha</a></span></h3>
+                <h3>Não tem uma conta ? <span class="span"><a href="/cadastro/cadastro.html">Cadastre-se</a></span></h3>
+                <button type="submit" class="button-enter"><a href="/index.html">Entrar</a></button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="loginscript.js"></script>
+</html>

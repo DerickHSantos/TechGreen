@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+body{
+    margin: 0%;
+    width: auto;
+    
+}
+
+#map {
+    background-color: #0b302b;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 90%;
+    margin: 40px;
+    border: 5px solid #114741;
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+a{
+  text-decoration: none;
+  color: #00CC76;
+}
+
+.mapao{
+    width: 150px;
+    height: auto;
+    margin: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.informarCep{
+    background-color: #13524a;
+    padding: 5px;
+    width:90%;
+    height: auto;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    
+  }
+
+  .informarCep p{
+    margin: 3%;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    font-family: 'Nunito';
+  }
+
+input[type="text"],
+input[type="number"]{
+    display: flex;
+  width: 34%;
+  margin-bottom: 25px;
+  padding: 10px;
+  border-style: none;
+  border-radius: 7px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .ui-mini-green-button{
+    border: 4px solid #00CC76;
+    border-radius: 100px;
+    background-color:#13524a;
+    color:#fff;
+    padding: 15px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+button{
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+input{
+  border-radius: 6.0px;
+}
+
+hr {
+    margin: 3%;
+    background-color: #ffffff;
+    padding: 2px;
+    border-style: none;
+    border-radius: 100px;
+  }
+
+.textoLand1 {
+    margin: 3%;
+    display: flex;
+    font-weight: 600;
+    font-size: 19px;
+    color: #0F3E38;
+    text-align: justify;
+    align-items: center;
+    font-family: 'Nunito';
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .item {
+    flex: 10 0 300px;
+    margin: 0px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    padding: 1px;
+    background-color: #114741;
+  }
+
+  .logo img {
+    width: 100px;
+    height: auto;
+    margin: 15px;
+    cursor: pointer;
+  }
+
+  .menu-button {
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #114741;
+    display: flex;
+  }
+
+
+
+  @media (max-width: 769px) {
+    .logo img {
+      width: 100px;
+      margin-left: 20px;
+    }
+
+    .menu-button img {
+      margin-right: 20px;
+      height: 40px;
+      width: 40px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .logo img {
+      width: 140px;
+      margin-left: 50px;
+    }
+
+    .menu-button img {
+      margin-right: 50px;
+    }
+  }
+
+  footer {
+    background-color: #0b302b;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+  }
+
+  .containerFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logoFooter img {
+    width: 100px;
+    height: auto;
+  }
+
+  .links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .links ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .links ul li a {
+    color: #fff;
+    text-decoration: wavy;
+  }
+
+  .contact p {
+    margin: 0 0;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .contactVerde1 {
+    color: #00CC76;
+  }
+
+  .contactVerde2 {
+    color: #00AA95;
+  }
+
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-media ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .social-media ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .social-media ul li a i img {
+    width: 30px;
+    height: auto;
+  }
+
+  .social-media-margin {
+    margin-right: 0;
+  }
+
+  .legal {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .legal a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .button {
+    align-items: center;
+    text-align: center;
+  }
+
+  .btnCadastre {
+    padding: 10px 20px;
+    color: #10ab6a;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .btnLogin {
+    padding: 10px 20px;
+    background-color: #10ab6a;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Estilos para telas menores que 768px */
+  @media screen and (max-width: 768px) {
+    .containerFooter {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .logoFooter {
+      margin-bottom: 20px;
+    }
+
+    .links,
+    .contact,
+    .social-media {
+      margin-bottom: 20px;
+    }
+
+    .button {
+      text-align: center;
+    }
+  }
+
+  /* Estilos para telas menores que 480px */
+  @media screen and (max-width: 480px) {
+    .logoFooter img {
+      width: 80px;
+    }
+
+    .btnCadastre,
+    .btnLogin {
+      padding: 5px 10px;
+      margin: 10 0px;
+      text-align: center;
+      align-items: center;
+    }
+
+    .links ul {
+      margin: 0;
+    }
+
+    .social-media ul {
+      margin: 0;
+    }
+  }
+
+
+
+  .menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: #0b302b;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+  
+  .menu-list.open {
+    height: 275px; /* Defina o valor apropriado para a altura do menu */
+  }
+  
+  .menu-list li {
+    margin-right: 10px;
+  }
+  
+  .menu-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+  }
+  
+  .menu-button {
+    cursor: pointer;
+  }
+
+  .links2 p{
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 5px;
+    border-bottom: 3px solid #13524a;
+  }
+
+  .links2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+ 
+
+  .links2 ul li {
+    display: inline;
+    margin-right: 6px;
+    margin-bottom: 7px;
+  }
+
+  .links2 ul li a {
+    color: #fff;
+    text-decoration: wavy;
+  }
+
+  .contact2{
+    margin: 30px;
+  }
+
+  .contact2 p {
+    margin: 0 0px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .social-media2{
+    margin: 30px;
+  }
+
+  .social-media2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-media2 ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .social-media2 ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .social-media2 ul li a i img {
+    width: 30px;
+    height: auto;
+  }
+
+  .social-media-margin2 {
+    margin-right: 0;
+  }
+
+  .legal2 {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .legal2 a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .button2 {
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+  }
+
+  .btnCadastre2 {
+    padding: 10px 20px;
+    color: #10ab6a;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .btnLogin2 {
+    padding: 10px 40px;
+    margin: 10px 0px;
+    background-color: #10ab6a;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #links2{
+    color:#fff;
+
+  }
+
+  /* Estilos para telas menores que 768px */
+  @media screen and (max-width: 1280px) {
+    .menu-list {
+      flex-direction: column;
+      text-align: center;
+      flex-wrap: nowrap;
+    }
+
+    .links2,
+    .contact2,
+    .social-media2 {
+      margin: 20px;
+    }
+
+    .button2 {
+      text-align: center;
+    }
+
+    .menu-list.open {
+      height: 675px; /* Defina o valor apropriado para a altura do menu */
+    }
+
+    #links2 li{
+      display: block;
+    }
+
+    .button2{
+      margin-bottom:0;
+    }
+  }
+
+  /* Estilos para telas menores que 480px */
+  @media screen and (max-width: 480px) {
+
+    .btnCadastre2,
+    .btnLogin2 {
+      padding: 10px 15px;
+      margin: 10 0px;
+      text-align: center;
+      align-items: center;
+    }
+
+    .links2 ul {
+      margin: 0;
+    }
+
+    .social-media2 ul {
+      margin: 0;
+    }
+  }
+/*Propriedade de ©TechGrenn, Todos os direitos reservados, 2023*/
