@@ -25,4 +25,6 @@ Dê CTRL + ENTER após cada ';';
 Vá no explorador de arquivos, na pasta que contém 'server.js';
 Clique na barra superior que contém o caminho do arquivo e o copie;
 
-Volte ao cmd, digite 'cd ' e clique com o botão direito para colar
+Volte ao cmd, digite 'cd ' e clique com o botão direito para colar e dê enter
+
+Entre no seu navegador de preferência e digite 'localhost:3000'
