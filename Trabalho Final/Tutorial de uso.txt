@@ -1,0 +1,28 @@
+Baixe o aplicativo XAMPP;
+Baixe o aplicativo Workbench MySQL;
+Baixe o aplicativo Node.js;
+
+Aperte Windows + R e digite 'cmd', dê enter;
+Digite 'npm install axios crypto exprees express-session mysql';
+
+Abra o XAMPP e dê start nos servidores apache e mysql;
+Abra o Workbench e crie uma conexão com o nome TechGreen;
+Abra a conexão e cole os seguintes comandos:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+CREATE DATABASE TechGren;
+USE Techgreen;
+
+CREATE TABLE feedbacks (id INT auto_increment primary key, email VARCHAR(255), nota INT, comentario VARCHAR(255));
+CREATE TABLE usuarios (id INT auto_increment primary key, nome VARCHAR(255), email VARCHAR(255), cep INT(8), senha VARCHAR(255), isAdmin BOOL);
+CREATE TABLE pontosColeta (id INT auto_increment primary key, nome VARCHAR(255), cep INT);
+
+INSERT INTO usuarios (nome, email, cep, senha, isAdmin) VALUES ('Admin', 'admin@admin', '30160040', 'Adm1n', true);
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Dê CTRL + ENTER após cada ';';
+
+Vá no explorador de arquivos, na pasta que contém 'server.js';
+Clique na barra superior que contém o caminho do arquivo e o copie;
+
+Volte ao cmd, digite 'cd ' e clique com o botão direito para colar

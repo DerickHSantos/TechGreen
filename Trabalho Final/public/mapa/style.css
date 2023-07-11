@@ -1,0 +1,90 @@
+html{
+    padding: 1%;
+}
+
+#map {
+    height: 400px;
+    width: 96%;
+    border: 2px solid #149c10;
+    border-radius: 6.9px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+button{
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+input{
+  border-radius: 6.0px;
+}
+
+.feedback{
+  text-align: center;
+}
+
+.smallButton{
+    width: 5%;
+    min-width: 80px;
+}
+
+.ui.text{
+    font-size: 140%;
+}
+
+.adiminSections{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 0.69%;
+}
+
+#feedback-list{
+    padding-left: 1%;
+    padding-top: 0.69%;
+    font-size: 109%;
+}
+
+.ui.medium.input{
+    width: 69.892%;
+}
+
+.ui.fluid.input{
+    width: 99%;
+}
+
+.fitted.icon.item{
+    width: 3123123px;
+    background-color: yellow;
+}
+
+.ui.massive.menu{
+    background-color: #114741;
+}
+
+.verde-escuro{
+    background-color: #0F3E38 !important;
+    color: aliceblue !important;
+}
+
+.ui.dropdown.icon.item{
+    color: aliceblue;
+}
+
+.ui.transparent.button{
+    background-color: #00000000;
+}
+
+#temaBotao{
+    font-weight: normal;
+    cursor: pointer;
+}
+
+h3{
+    font-weight: none;
+}
+
+/*Propriedade de ©TechGrenn, Todos os direitos reservados, 2023*/

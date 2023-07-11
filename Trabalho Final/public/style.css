@@ -1,0 +1,869 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+  body {
+    margin: 0%;
+    width: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .item {
+    flex: 10 0 300px;
+    margin: 0px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    padding: 1px;
+    background-color: #114741;
+  }
+
+  .logo img {
+    width: 100px;
+    height: auto;
+    margin: 15px;
+    cursor: pointer;
+  }
+
+  .menu-button {
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #114741;
+    display: flex;
+  }
+
+
+
+  @media (max-width: 769px) {
+    .logo img {
+      width: 100px;
+      margin-left: 20px;
+    }
+
+    .menu-button img {
+      margin-right: 20px;
+      height: 40px;
+      width: 40px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .logo img {
+      width: 140px;
+      margin-left: 50px;
+    }
+
+    .menu-button img {
+      margin-right: 50px;
+    }
+  }
+
+  .imagemFundo1 {
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    opacity: 60%;
+    display: block;
+  }
+
+  @media (max-width: 668px) {
+    #avenidaCelular {
+      content: url('avenidaCelular.jpeg');
+    }
+  }
+
+  .containerImagemFundo1 {
+    position: relative;
+  }
+
+  .overlayFundo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background-color: #114741;
+    padding: 20px;
+    opacity: 100%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .overlay-text {
+    opacity: 1;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    margin: auto;
+  }
+
+  .conferirColetas {
+    text-decoration: none;
+    background-color: #0F3E38;
+    border: 6px solid #00CC76;
+    border-radius: 100px;
+    padding: 1%;
+    display: flex;
+    cursor: pointer;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    align-items: center;
+
+  }
+
+  .conferirColetas img {
+
+    width: 39px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+
+  }
+
+  hr {
+    margin: 2%;
+  }
+
+  .textoLand1 {
+    margin: 3%;
+    display: flex;
+    font-weight: 600;
+    font-size: 19px;
+    color: #0F3E38;
+    text-align: justify;
+    align-items: center;
+    font-family: 'Nunito';
+  }
+
+  .tituloLand1 {
+
+    margin: 4%;
+    margin-bottom: 0%;
+    display: flex;
+    font-size: 40px;
+    color: #0F3E38;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .textoImg1 {
+
+    width: 200px;
+    height: auto;
+    display: flex;
+    margin: 2%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .textoFeedback {
+    margin: 3%;
+    display: flex;
+    font-weight: 600;
+    font-size: 19px;
+    color: #0F3E38;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito';
+  }
+
+  .tituloFeedback {
+    text-align: center;
+    font-size: 40px;
+    color: #0F3E38;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .imgFeedback {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.69%;
+    display: flex;
+    width: 120px;
+    height: auto;
+    margin-top: -1%;
+  }
+
+  .responsive-h1 {
+    font-size: 24px;
+    /* Tamanho padrão */
+  }
+
+  @media screen and (max-width: 668px) {
+    .responsive-h1 {
+      font-size: 23px;
+      /* Tamanho para telas menores */
+    }
+
+    .conferirColetas {
+      font-size: 18px;
+      padding: 3%;
+    }
+
+    .conferirColetas img {
+
+      width: 30px;
+      height: 33px;
+    }
+
+    .textoLand1 {
+      margin: 8%;
+      font-size: 14px;
+      display: block;
+    }
+
+    .tituloLand1 {
+      font-size: 25px;
+      margin: 5%;
+    }
+
+    .textoImg1 {
+      width: 150px;
+      display: flex;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .textoFeedback {
+      margin: 8%;
+      font-size: 14px;
+      display: block;
+    }
+
+    .tituloFeedback {
+      font-size: 25px;
+      margin: 5%;
+    }
+
+    .imgFeedback {
+      width: 100px;
+      display: flex;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .responsive-h1 {
+      font-size: 48px;
+      /* Tamanho para telas ainda maiores */
+    }
+  }
+
+
+  /* Tentativa de fazer o parte do saiba mais com a imagem de fundo mantendo as "mesmas propriedades" do background 1*/
+
+  .imagemFundo2 {
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    opacity: 60%;
+    display: block;
+  }
+
+  .containerImagemFundo2 {
+    position: relative;
+  }
+
+  .overlayFundo2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background-color: #114741;
+    padding: 20px;
+    opacity: 100%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .overlay-text2 {
+    opacity: 1;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    margin: auto;
+  }
+
+  .conferirColetas2 {
+
+    background-color: #0F3E38;
+    border: 6px solid #00CC76;
+    border-radius: 100px;
+    padding: 1%;
+    display: flex;
+    cursor: pointer;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    align-items: center;
+
+  }
+
+  .conferirColetas2 img {
+
+    width: 39px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+
+  }
+
+  .responsive-h2 {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 668px) {
+    .responsive-h2 {
+      font-size: 14px;
+      /* Tamanho para telas menores */
+    }
+
+    .conferirColetas2 {
+      font-size: 14px;
+      padding: 2.1%;
+      border: 5px solid #00CC76;
+    }
+
+    .conferirColetas2 img {
+
+      width: 28px;
+      height: 31px;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .responsive-h2 {
+      font-size: 22px;
+      /* Tamanho para telas ainda maiores */
+    }
+  }
+
+  @media (max-width: 668px) {
+    #avenidaCelular2 {
+      content: url('estacaoMoveCelular.jpg');
+    }
+  }
+
+  /* Feedback das estrelas */
+
+  .rating-container {
+    display: flex;
+    justify-content: center;
+    /* Centraliza o container horizontalmente */
+  }
+
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
+
+  .rating input {
+    display: none;
+  }
+
+  .rating label {
+    font-size: 78px;
+    /* Tamanho das estrelas */
+    color: #b9c0c5;
+    cursor: pointer;
+    margin: 0 4px;
+    /* Espaçamento entre as estrelas */
+  }
+
+  .rating label:before {
+    content: '\2605';
+  }
+
+  .rating input:checked~label {
+    color: #FFB025;
+  }
+
+  .rating label:hover,
+  .rating label:hover~label {
+    color: #FFB025;
+  }
+
+  @media (max-width: 668px) {
+    .rating label {
+      font-size: 42px;
+    }
+  }
+
+  .enviarFeedback {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+    max-width: 75%;
+    padding: 2%;
+    margin: 2%;
+    border: 3px solid #114741;
+    border-radius: 100px;
+    font-size: 16px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #3d3d3d;
+  }
+
+  button[type="submit"] {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    float: right;
+    margin-top: -11%;
+    margin-right: 3.33%;
+  }
+
+  .arrow-button {
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    border: none;
+    color: #114741;
+    font-size: 24px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrow-button:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    border-top: 5px solid #114741;
+    border-right: 5px solid #114741;
+    font-weight: bolder;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .arrow-button:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  @media (max-width: 668px) {
+    input {
+      padding: 4%;
+      border: 2px solid #114741;
+      font-size: 12px;
+      margin-left: 7%;
+    }
+
+    .arrow-button:before {
+      width: 17px;
+      height: 17px;
+      border-top: 3px solid #114741;
+      border-right: 3px solid #114741;
+      left: 40%;
+    }
+  }
+
+  footer {
+    background-color: #0b302b;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+  }
+
+  .containerFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logoFooter img {
+    width: 100px;
+    height: auto;
+  }
+
+  .links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .links ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .links ul li a {
+    color: #fff;
+    text-decoration: wavy;
+  }
+
+  .contact p {
+    margin: 0 0;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .contactVerde1 {
+    color: #00CC76;
+  }
+
+  .contactVerde2 {
+    color: #00AA95;
+  }
+
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-media ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .social-media ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .social-media ul li a i img {
+    width: 30px;
+    height: auto;
+  }
+
+  .social-media-margin {
+    margin-right: 0;
+  }
+
+  .legal {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .legal a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .button {
+    align-items: center;
+    text-align: center;
+  }
+
+  .btnCadastre {
+    padding: 10px 20px;
+    color: #10ab6a;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .btnLogin {
+    padding: 10px 20px;
+    background-color: #10ab6a;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Estilos para telas menores que 768px */
+  @media screen and (max-width: 768px) {
+    .containerFooter {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .logoFooter {
+      margin-bottom: 20px;
+    }
+
+    .links,
+    .contact,
+    .social-media {
+      margin-bottom: 20px;
+    }
+
+    .button {
+      text-align: center;
+    }
+  }
+
+  /* Estilos para telas menores que 480px */
+  @media screen and (max-width: 480px) {
+    .logoFooter img {
+      width: 80px;
+    }
+
+    .btnCadastre,
+    .btnLogin {
+      padding: 5px 10px;
+      margin: 10 0px;
+      text-align: center;
+      align-items: center;
+    }
+
+    .links ul {
+      margin: 0;
+    }
+
+    .social-media ul {
+      margin: 0;
+    }
+  }
+
+  .menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: #0b302b;
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    float: right;
+    width: 20vw;
+  }
+  
+  .menu-list.open {
+    max-height: 456px; /* Defina o valor apropriado para a altura do menu */
+  }
+  
+  .menu-list li {
+    margin-right: 10px;
+  }
+  
+  .menu-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+  }
+  
+  .menu-button {
+    cursor: pointer;
+  }
+
+  .links2 p{
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 5px;
+    border-bottom: 3px solid #13524a;
+  }
+
+  .links2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+ 
+
+  .links2 ul li {
+    display: inline;
+    margin-right: 6px;
+    margin-bottom: 7px;
+  }
+
+  .links2 ul li a {
+    color: #fff;
+    text-decoration: wavy;
+  }
+
+  .contact2{
+    margin: 30px;
+  }
+
+  .contact2 p {
+    margin: 0 0px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .social-media2{
+    margin: 30px;
+  }
+
+  .social-media2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-media2 ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .social-media2 ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .social-media2 ul li a i img {
+    width: 30px;
+    height: auto;
+  }
+
+  .social-media-margin2 {
+    margin-right: 0;
+  }
+
+  .legal2 {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .legal2 a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .button2 {
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+  }
+
+  .btnCadastre2 {
+    padding: 10px 20px;
+    color: #10ab6a;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .btnLogin2 {
+    padding: 10px 40px;
+    margin: 10px 0px;
+    background-color: #10ab6a;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #links2{
+    color:#fff;
+
+  }
+
+  /* Estilos para telas menores que 768px */
+  @media screen and (max-width: 1280px) {
+    .menu-list {
+      flex-direction: column;
+      text-align: center;
+      flex-wrap: nowrap;
+    }
+
+    .links2,
+    .contact2,
+    .social-media2 {
+      margin: 20px;
+    }
+
+    .button2 {
+      text-align: center;
+    }
+
+    .menu-list.open {
+      height: 675px; /* Defina o valor apropriado para a altura do menu */
+    }
+
+    #links2 li{
+      display: block;
+    }
+
+    .button2{
+      margin-bottom:0;
+    }
+  }
+
+  /* Estilos para telas menores que 480px */
+  @media screen and (max-width: 480px) {
+
+    .btnCadastre2,
+    .btnLogin2 {
+      padding: 10px 15px;
+      margin: 10 0px;
+      text-align: center;
+      align-items: center;
+    }
+
+    .links2 ul {
+      margin: 0;
+    }
+
+    .social-media2 ul {
+      margin: 0;
+    }
+  }
+
+  #temaBotao{
+    font-weight: normal;
+    cursor: pointer;
+}

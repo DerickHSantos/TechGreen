@@ -1,0 +1,48 @@
+Versão com integração do feedback com email, nota e comentario
+
+v0.7
+Rota de cadastro de usuario
+
+v0.8
+Reestruturação dos diretórios e arquivos
+Rota de login
+Pequenas melhorias
+Verificador de cep no login
+
+v0.9
+Começo da integração entre front & back end (apenas login)
+Começo da responsividade mobile
+
+v0.9.1
+Pequenos ajustes na responsividade mobile (login)
+Começo da respinsividade mobile (cadastro)
+
+v0.10
+Tela de cadastro mobile
+Sessão de login supostamente estabelecida
+Mapa centraliza no cep do usuario
+
+v0.11
+Mapa centraliza no cep do usuario
+Cep fica pre pronto no campo isira cep
+página admin adicionada, escondida e protegida apenas para contas isAdmin
+Adicionado marcador com a localização do cliente
+Integração com o banco de dados para puxar e enviar os pontosColeta
+
+v0.12
+Correção de bugs
+Página Esquceu Senha feita, estilizada e integrada
+Função de Relatório de feedbacks adicionada
+Pequenas melhorias 
+
+v0.12.1
+Código comentado
+Favicon atualizado
+Pequena estilização da página Admin
+Correção de bug da duplicação de relatório de Feedback
+
+v0.13
+Adicionada homepage
+Adicionada criptografia de senhas
+Adicionada pasta de imagens contendo as imagens
+Correção de links

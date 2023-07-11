@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techgreen</title>
+    <link rel="icon" href="/images/favicon_TechGreen.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <link href="login.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body onload="verificarTema()">
+  <!--Menu superior-->
+  <div class="ui top attached menu">
+    <div class="ui dropdown icon item">
+        <i>...</i>
+        <div class="menu">
+          <a href="/cadastro/cadastro.html">
+            <div class="item verde-escuro">
+              Cadastrar
+            </div>
+          </a>
+          <a href="/login/login.html">
+            <div class="item verde-escuro">
+              Login
+            </div>
+          </a>
+          <a href="/mapa/mapa.html">
+            <div class="item verde-escuro">
+              Pontos de Coleta
+            </div>
+          </a>
+          <a><div class="item verde-escuro" id="temaBotao" onclick="trocarTema()">
+            Tema Escuro
+          </div></a>
+        </div>
+    </div>
+  </div>
+
+  <div class="container"> <!--Div para agrupar todo o conteúdo-->
+
+      <div class="first-column"> <!--Primeira coluna (lado esquerdo site)-->
+        <img class="image" src="/images/menino.png" alt="Imagem primeira coluna">
+      </div> <!--Fecha primeira coluna-->
+
+      <div class="second-column"> <!--Segunda coluna (lado direito site)-->
+        <div class="form-total"> <!--Agrupa todos os componentes do espaço de formulário-->
+        <img class="logo" src="/images/logo-techgreen.png" alt="Logo TechGreen">
+        <h3 class="title-form">Fazer Login</h3>
+        <form class="form" action="/enviar-login" id="loginForm"> <!--Formulário de cadastro-->
+          <input class="input-box" type="email" placeholder="E-mail" id="emailLogin" required>
+          <input class="input-box" type="password" placeholder="Senha" id="senhaLogin" required>
+          <div class="enter-button"> <!--Botão para cadastro com link-->
+            <a href="#"><button type="submit" class="button-enter">Entrar</button></a>
+          </div>
+        </form>
+        
+        <br>
+        
+        <div class="linha-texto">  <!--Linha abaixo do formulário-->
+          <div class="linha"></div>
+          <div class="texto">Ou</div>
+          <div class="linha"></div>
+        </div>
+        
+        <div class="social-media"> <!--Redes sociais-->
+          <a href="#">
+            <div  class="social-link">
+              <img src="/images/logo-google.png" alt="Rede Social Google"  class="social-link-image">
+            </div>
+          </a>
+        </div>
+
+        <a href="/esqueceuSenha/esqueceuSenha.html" class="redefinir-link"> Redefinir senha</a>
+        <!--Descrição fazer redefinir senha com link-->
+
+        <p class="description-cadastro">Não tem uma conta? <a href="/cadastro/cadastro.html" class="cadastro-link"> Crie uma</a></p>
+        <!--Descrição fazer cadastro com link-->
+
+      </div> <!--Fecha segunda coluna-->
+   
+  </div> <!--Fecha container-->
+  
+</body>
+<script src="loginscript.js"></script>
+</html>
